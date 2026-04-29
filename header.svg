@@ -12,7 +12,7 @@
     <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#b39dff"/>
       <stop offset="50%" style="stop-color:#00e5cc"/>
-      <stop offset="100%" style="stop-color:#39d353"/>
+      <stop offset="100%" style="stop-color:#fe428e"/>
     </linearGradient>
     <filter id="glow">
       <feGaussianBlur stdDeviation="6" result="blur"/>
@@ -28,19 +28,19 @@
   <!-- Blobs -->
   <circle cx="80" cy="60" r="70" fill="#b39dff" opacity="0.07" filter="url(#blob)"/>
   <circle cx="820" cy="150" r="80" fill="#00e5cc" opacity="0.05" filter="url(#blob)"/>
-  <circle cx="450" cy="190" r="50" fill="#39d353" opacity="0.05" filter="url(#blob)"/>
+  <circle cx="450" cy="190" r="50" fill="#fe428e" opacity="0.05" filter="url(#blob)"/>
   <circle cx="680" cy="30" r="40" fill="#b39dff" opacity="0.06" filter="url(#blob)"/>
 
   <!-- Star dots -->
   <circle cx="55"  cy="28"  r="1.5" fill="#b39dff" opacity="0.8"/>
   <circle cx="190" cy="14"  r="1"   fill="#00e5cc" opacity="0.7"/>
-  <circle cx="340" cy="22"  r="1.5" fill="#39d353"  opacity="0.6"/>
+  <circle cx="340" cy="22"  r="1.5" fill="#fe428e"  opacity="0.6"/>
   <circle cx="560" cy="11"  r="1"   fill="#b39dff" opacity="0.8"/>
   <circle cx="730" cy="18"  r="1.5" fill="#00e5cc" opacity="0.6"/>
-  <circle cx="858" cy="34"  r="1"   fill="#39d353"  opacity="0.7"/>
+  <circle cx="858" cy="34"  r="1"   fill="#fe428e"  opacity="0.7"/>
   <circle cx="78"  cy="172" r="1.5" fill="#00e5cc" opacity="0.5"/>
   <circle cx="825" cy="176" r="1"   fill="#b39dff" opacity="0.6"/>
-  <circle cx="435" cy="184" r="1.5" fill="#39d353"  opacity="0.5"/>
+  <circle cx="435" cy="184" r="1.5" fill="#fe428e"  opacity="0.5"/>
   <circle cx="155" cy="182" r="1"   fill="#ffdc00" opacity="0.5"/>
   <circle cx="660" cy="179" r="1.5" fill="#b39dff" opacity="0.5"/>
 
@@ -54,11 +54,9 @@
   <text x="154" y="82" text-anchor="middle" font-size="10" fill="#00e5cc" font-weight="600">Node.js</text>
 
   <!-- Right pills -->
-  <rect x="700" y="108" width="84" height="20" rx="10" fill="#39d353" opacity="0.10"/>
-  <rect x="700" y="108" width="84" height="20" rx="10" fill="none" stroke="#39d353" stroke-width="0.5" opacity="0.4"/>
-  <text x="742" y="122" text-anchor="middle" font-size="10" fill="#39d353" font-weight="600">MongoDB</text>
-
-  <rect x="792" y="108" width="80" height="20" rx="10" fill="#ffdc00" opacity="0.10"/>
+  <rect x="700" y="108" width="84" height="20" rx="10" fill="#fe428e" opacity="0.10"/>
+  <rect x="700" y="108" width="84" height="20" rx="10" fill="none" stroke="#fe428e" stroke-width="0.5" opacity="0.4"/>
+  <text x="742" y="122" text-anchor="middle" font-size="10" fill="#fe428e" font-weight="600">MongoDB</text>
   <rect x="792" y="108" width="80" height="20" rx="10" fill="none" stroke="#ffdc00" stroke-width="0.5" opacity="0.35"/>
   <text x="832" y="122" text-anchor="middle" font-size="10" fill="#ffdc00" font-weight="600">Next.js</text>
 
