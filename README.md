@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com/?lines=5+min+queries+now+run+in+0.5s;Lead+systems+at+1M%2B+scale;Full-stack+from+idea+to+production;Next.js+%C2%B7+Node.js+%C2%B7+MongoDB+%C2%B7+Go&font=Fira+Code&center=true&width=520&height=45&color=f72585&vCenter=true&pause=1000&size=20&duration=3000" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com/?lines=5+min+queries+now+run+in+0.5s;Lead+systems+at+1M%2B+scale;Full-stack+from+idea+to+production;Next.js+%C2%B7+Node.js+%C2%B7+MongoDB+%C2%B7+Go&font=Fira+Code&center=true&width=520&height=45&color=b39dff&vCenter=true&pause=1000&size=20&duration=3000" alt="Typing SVG" />
   </a>
 </p>
 
@@ -138,16 +138,16 @@ fun_fact: "I paint when I'm not debugging aggregation pipelines 🎨"
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-    <img src="https://streak-stats.demolab.com/?user=Purvi-Gupta&hide_border=true&theme=tokyonight" alt="Streak Stats"/>
+    <img src="https://streak-stats.demolab.com/?user=Purvi-Gupta&hide_border=true&background=0d0d1a&ring=b39dff&fire=fe428e&currStreakLabel=b39dff&sideLabels=00e5cc&currStreakNum=ffffff&sideNums=ffffff&dates=555555&stroke=b39dff" alt="Streak Stats"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180px" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Purvi-Gupta&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&rank_icon=github" alt="GitHub Stats"/>
+    <img height="180px" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Purvi-Gupta&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d0d1a&title_color=b39dff&icon_color=fe428e&text_color=00e5cc&rank_icon=github" alt="GitHub Stats"/>
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180px" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Purvi-Gupta&langs_count=8&layout=compact&hide_border=true&theme=tokyonight&hide=html,ejs" alt="Top Languages"/>
+    <img height="180px" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Purvi-Gupta&langs_count=8&layout=compact&hide_border=true&bg_color=0d0d1a&title_color=b39dff&text_color=00e5cc&hide=html,ejs" alt="Top Languages"/>
   </a>
 </p>
 
@@ -157,7 +157,7 @@ fun_fact: "I paint when I'm not debugging aggregation pipelines 🎨"
 
 <p align="center">
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph/?username=Purvi-Gupta&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph"/>
+    <img src="https://github-readme-activity-graph.vercel.app/graph/?username=Purvi-Gupta&bg_color=0d0d1a&color=b39dff&line=fe428e&point=00e5cc&hide_border=true&area=true&area_color=150d2e" alt="Activity Graph"/>
   </a>
 </p>
 
@@ -215,7 +215,7 @@ const purvi = {
 <br/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Always+building.+Always+learning.;Open+to+collabs+%26+interesting+problems&font=Fira+Code&center=true&width=420&height=28&color=aaaaaa&vCenter=true&pause=2000&size=13&duration=2500" alt="Footer" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Always+building.+Always+learning.;Open+to+collabs+%26+interesting+problems&font=Fira+Code&center=true&width=420&height=28&color=555555&vCenter=true&pause=2000&size=13&duration=2500" alt="Footer" />
 </p>
 
 <p align="center">
