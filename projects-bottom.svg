@@ -1,80 +1,85 @@
-<svg viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+<svg viewBox="0 0 900 230" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f8fff0"/>
-      <stop offset="100%" style="stop-color:#fff8f0"/>
+      <stop offset="0%" style="stop-color:#0d0d1a"/>
+      <stop offset="100%" style="stop-color:#0a0a14"/>
     </linearGradient>
-    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ffd60a"/>
-      <stop offset="100%" style="stop-color:#f77f00"/>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffdc00"/>
+      <stop offset="100%" style="stop-color:#f0a500"/>
     </linearGradient>
-    <linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f72585"/>
-      <stop offset="100%" style="stop-color:#4361ee"/>
+    <linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#b39dff"/>
+      <stop offset="100%" style="stop-color:#00e5cc"/>
     </linearGradient>
-    <linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7209b7"/>
-      <stop offset="100%" style="stop-color:#06d6a0"/>
+    <linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fe428e"/>
+      <stop offset="100%" style="stop-color:#b39dff"/>
     </linearGradient>
-    <filter id="shadow">
-      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#00000012"/>
-    </filter>
-    <filter id="blobBlur">
-      <feGaussianBlur stdDeviation="22"/>
-    </filter>
   </defs>
 
-  <rect width="900" height="220" fill="url(#bg)" rx="16"/>
-  <circle cx="200" cy="160" r="70" fill="#ffd60a" opacity="0.06" filter="url(#blobBlur)"/>
-  <circle cx="700" cy="60" r="60" fill="#7209b7" opacity="0.06" filter="url(#blobBlur)"/>
+  <rect width="900" height="230" fill="url(#bg)" rx="16"/>
 
-  <text x="30" y="34" font-size="13" font-weight="700" fill="#888" letter-spacing="2">🏆  SYSTEMS I'VE SHIPPED  —  row 2 of 2</text>
+  <text x="30" y="34" font-size="11" font-weight="700" fill="#b39dff" letter-spacing="2" opacity="0.8">🏆  SYSTEMS I'VE SHIPPED  —  2 of 2</text>
+  <rect x="30" y="40" width="210" height="1.5" rx="1" fill="url(#g4)" opacity="0.5"/>
 
-  <!-- CARD 4: Contact & Coupon Management -->
-  <rect x="30" y="50" width="264" height="148" rx="14" fill="white" filter="url(#shadow)" opacity="0.95"/>
-  <rect x="30" y="50" width="264" height="5" rx="2.5" fill="url(#g4)"/>
-  <text x="52" y="96" font-size="28">📋</text>
-  <text x="92" y="88" font-size="14" font-weight="700" fill="#222">Contact &amp; Coupon Mgmt</text>
-  <text x="92" y="104" font-size="11" fill="#999">CRM · Promotions · Full-Stack</text>
-  <text x="50" y="128" font-size="11" fill="#555">Built contact management with tagging,</text>
-  <text x="50" y="144" font-size="11" fill="#555">filtering, and coupon system for discount</text>
-  <text x="50" y="160" font-size="11" fill="#555">campaigns with validation rules.</text>
-  <rect x="50" y="172" width="52" height="16" rx="8" fill="#fff8e0"/>
-  <text x="76" y="184" text-anchor="middle" font-size="9" fill="#f77f00" font-weight="600">React</text>
-  <rect x="110" y="172" width="60" height="16" rx="8" fill="#fff8e0"/>
-  <text x="140" y="184" text-anchor="middle" font-size="9" fill="#f77f00" font-weight="600">Node.js</text>
-  <rect x="178" y="172" width="60" height="16" rx="8" fill="#fff8e0"/>
-  <text x="208" y="184" text-anchor="middle" font-size="9" fill="#f77f00" font-weight="600">MongoDB</text>
+  <!-- CARD 4 — yellow -->
+  <rect x="30"  y="54" width="264" height="162" rx="12" fill="#1a1600"/>
+  <rect x="30"  y="54" width="264" height="162" rx="12" fill="none" stroke="#ffdc00" stroke-width="0.5" opacity="0.25"/>
+  <rect x="30"  y="54" width="264" height="4"   rx="2"  fill="url(#g4)"/>
+  <text x="52"  y="98" font-size="26">📋</text>
+  <text x="90"  y="90" font-size="13" font-weight="700" fill="#ffdc00">Contact &amp; Coupon Mgmt</text>
+  <text x="90"  y="106" font-size="10" fill="#555">CRM · Promotions · Full-Stack</text>
+  <text x="48"  y="128" font-size="11" fill="#888">Contact management with tagging,</text>
+  <text x="48"  y="144" font-size="11" fill="#888">filtering + coupon system for</text>
+  <text x="48"  y="160" font-size="11" fill="#888">discount campaigns with validation.</text>
+  <rect x="48"  y="176" width="44" height="16" rx="8" fill="#ffdc00" opacity="0.13"/>
+  <rect x="48"  y="176" width="44" height="16" rx="8" fill="none" stroke="#ffdc00" stroke-width="0.5" opacity="0.35"/>
+  <text x="70"  y="188" text-anchor="middle" font-size="9" fill="#ffdc00" font-weight="600">React</text>
+  <rect x="100" y="176" width="48" height="16" rx="8" fill="#ffdc00" opacity="0.10"/>
+  <rect x="100" y="176" width="48" height="16" rx="8" fill="none" stroke="#ffdc00" stroke-width="0.5" opacity="0.3"/>
+  <text x="124" y="188" text-anchor="middle" font-size="9" fill="#ffdc00" font-weight="600">Node.js</text>
+  <rect x="156" y="176" width="56" height="16" rx="8" fill="#ffdc00" opacity="0.10"/>
+  <rect x="156" y="176" width="56" height="16" rx="8" fill="none" stroke="#ffdc00" stroke-width="0.5" opacity="0.3"/>
+  <text x="184" y="188" text-anchor="middle" font-size="9" fill="#ffdc00" font-weight="600">MongoDB</text>
 
-  <!-- CARD 5: LMS Reports + Accounting -->
-  <rect x="318" y="50" width="264" height="148" rx="14" fill="white" filter="url(#shadow)" opacity="0.95"/>
-  <rect x="318" y="50" width="264" height="5" rx="2.5" fill="url(#g5)"/>
-  <text x="340" y="96" font-size="28">📈</text>
-  <text x="380" y="88" font-size="14" font-weight="700" fill="#222">LMS Reports &amp; Accounting</text>
-  <text x="380" y="104" font-size="11" fill="#999">Analytics · Finance · Dashboards</text>
-  <text x="338" y="128" font-size="11" fill="#555">Business reports for learning management</text>
-  <text x="338" y="144" font-size="11" fill="#555">with accounting module. Data aggregation</text>
-  <text x="338" y="160" font-size="11" fill="#555">pipelines serving live dashboards.</text>
-  <rect x="338" y="172" width="60" height="16" rx="8" fill="#fff0f6"/>
-  <text x="368" y="184" text-anchor="middle" font-size="9" fill="#f72585" font-weight="600">Next.js</text>
-  <rect x="406" y="172" width="68" height="16" rx="8" fill="#fff0f6"/>
-  <text x="440" y="184" text-anchor="middle" font-size="9" fill="#4361ee" font-weight="600">Aggregation</text>
-  <rect x="482" y="172" width="60" height="16" rx="8" fill="#fff0f6"/>
-  <text x="512" y="184" text-anchor="middle" font-size="9" fill="#f72585" font-weight="600">MongoDB</text>
+  <!-- CARD 5 — purple→cyan -->
+  <rect x="318" y="54" width="264" height="162" rx="12" fill="#150d2e"/>
+  <rect x="318" y="54" width="264" height="162" rx="12" fill="none" stroke="#b39dff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="318" y="54" width="264" height="4"   rx="2"  fill="url(#g5)"/>
+  <text x="340" y="98" font-size="26">📈</text>
+  <text x="378" y="90" font-size="13" font-weight="700" fill="#b39dff">LMS Reports &amp; Accounting</text>
+  <text x="378" y="106" font-size="10" fill="#555">Analytics · Finance · Dashboards</text>
+  <text x="336" y="128" font-size="11" fill="#888">Business reports for learning</text>
+  <text x="336" y="144" font-size="11" fill="#888">management + accounting module.</text>
+  <text x="336" y="160" font-size="11" fill="#888">Aggregation pipelines + dashboards.</text>
+  <rect x="336" y="176" width="48" height="16" rx="8" fill="#b39dff" opacity="0.13"/>
+  <rect x="336" y="176" width="48" height="16" rx="8" fill="none" stroke="#b39dff" stroke-width="0.5" opacity="0.4"/>
+  <text x="360" y="188" text-anchor="middle" font-size="9" fill="#b39dff" font-weight="600">Next.js</text>
+  <rect x="392" y="176" width="64" height="16" rx="8" fill="#00e5cc" opacity="0.12"/>
+  <rect x="392" y="176" width="64" height="16" rx="8" fill="none" stroke="#00e5cc" stroke-width="0.5" opacity="0.3"/>
+  <text x="424" y="188" text-anchor="middle" font-size="9" fill="#00e5cc" font-weight="600">Aggregation</text>
+  <rect x="464" y="176" width="56" height="16" rx="8" fill="#b39dff" opacity="0.10"/>
+  <rect x="464" y="176" width="56" height="16" rx="8" fill="none" stroke="#b39dff" stroke-width="0.5" opacity="0.3"/>
+  <text x="492" y="188" text-anchor="middle" font-size="9" fill="#b39dff" font-weight="600">MongoDB</text>
 
-  <!-- CARD 6: Elasticsearch + Caching -->
-  <rect x="606" y="50" width="264" height="148" rx="14" fill="white" filter="url(#shadow)" opacity="0.95"/>
-  <rect x="606" y="50" width="264" height="5" rx="2.5" fill="url(#g6)"/>
-  <text x="628" y="96" font-size="28">🔍</text>
-  <text x="668" y="88" font-size="14" font-weight="700" fill="#222">Search &amp; Caching Layer</text>
-  <text x="668" y="104" font-size="11" fill="#999">Elasticsearch Queries · Redis · Browser Cache</text>
-  <text x="626" y="128" font-size="11" fill="#555">Wrote &amp; optimized Elasticsearch queries for</text>
-  <text x="626" y="144" font-size="11" fill="#555">fast search, plus Redis &amp; browser caching</text>
-  <text x="626" y="160" font-size="11" fill="#555">strategies to keep responses snappy.</text>
-  <rect x="626" y="172" width="80" height="16" rx="8" fill="#f0e0ff"/>
-  <text x="666" y="184" text-anchor="middle" font-size="9" fill="#7209b7" font-weight="600">Elasticsearch</text>
-  <rect x="714" y="172" width="44" height="16" rx="8" fill="#e0fff4"/>
-  <text x="736" y="184" text-anchor="middle" font-size="9" fill="#06d6a0" font-weight="600">Redis</text>
-  <rect x="766" y="172" width="64" height="16" rx="8" fill="#f0e0ff"/>
-  <text x="798" y="184" text-anchor="middle" font-size="9" fill="#7209b7" font-weight="600">Caching</text>
+  <!-- CARD 6 — green→purple -->
+  <rect x="606" y="54" width="264" height="162" rx="12" fill="#1a0d20"/>
+  <rect x="606" y="54" width="264" height="162" rx="12" fill="none" stroke="#fe428e" stroke-width="0.5" opacity="0.3"/>
+  <rect x="606" y="54" width="264" height="4"   rx="2"  fill="url(#g6)"/>
+  <text x="628" y="98" font-size="26">🔍</text>
+  <text x="666" y="90" font-size="13" font-weight="700" fill="#fe428e">Search &amp; Caching Layer</text>
+  <text x="666" y="106" font-size="10" fill="#555">ES Queries · Redis · Browser Cache</text>
+  <text x="624" y="128" font-size="11" fill="#888">Wrote &amp; optimized Elasticsearch</text>
+  <text x="624" y="144" font-size="11" fill="#888">queries + Redis &amp; browser caching</text>
+  <text x="624" y="160" font-size="11" fill="#888">to keep responses snappy.</text>
+  <rect x="624" y="176" width="76" height="16" rx="8" fill="#fe428e" opacity="0.12"/>
+  <rect x="624" y="176" width="76" height="16" rx="8" fill="none" stroke="#fe428e" stroke-width="0.5" opacity="0.3"/>
+  <text x="662" y="188" text-anchor="middle" font-size="9" fill="#fe428e" font-weight="600">Elasticsearch</text>
+  <rect x="708" y="176" width="40" height="16" rx="8" fill="#00e5cc" opacity="0.12"/>
+  <rect x="708" y="176" width="40" height="16" rx="8" fill="none" stroke="#00e5cc" stroke-width="0.5" opacity="0.3"/>
+  <text x="728" y="188" text-anchor="middle" font-size="9" fill="#00e5cc" font-weight="600">Redis</text>
+  <rect x="756" y="176" width="52" height="16" rx="8" fill="#b39dff" opacity="0.12"/>
+  <rect x="756" y="176" width="52" height="16" rx="8" fill="none" stroke="#b39dff" stroke-width="0.5" opacity="0.3"/>
+  <text x="782" y="188" text-anchor="middle" font-size="9" fill="#b39dff" font-weight="600">Caching</text>
 </svg>
