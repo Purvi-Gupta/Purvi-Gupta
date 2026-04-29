@@ -1,92 +1,85 @@
-<svg viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+<svg viewBox="0 0 900 230" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#fff8ff"/>
-      <stop offset="100%" style="stop-color:#f0f8ff"/>
+      <stop offset="0%" style="stop-color:#0d0d1a"/>
+      <stop offset="100%" style="stop-color:#0a0a14"/>
     </linearGradient>
-    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f72585"/>
-      <stop offset="100%" style="stop-color:#b5179e"/>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#b39dff"/>
+      <stop offset="100%" style="stop-color:#8b6dff"/>
     </linearGradient>
-    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#4361ee"/>
-      <stop offset="100%" style="stop-color:#7209b7"/>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00e5cc"/>
+      <stop offset="100%" style="stop-color:#00b8a0"/>
     </linearGradient>
-    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#06d6a0"/>
-      <stop offset="100%" style="stop-color:#118ab2"/>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fe428e"/>
+      <stop offset="100%" style="stop-color:#c41660"/>
     </linearGradient>
-    <filter id="shadow">
-      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#00000012"/>
-    </filter>
-    <filter id="blobBlur">
-      <feGaussianBlur stdDeviation="22"/>
-    </filter>
   </defs>
 
-  <rect width="900" height="220" fill="url(#bg)" rx="16"/>
+  <rect width="900" height="230" fill="url(#bg)" rx="16"/>
 
-  <!-- Background blobs -->
-  <circle cx="150" cy="50" r="60" fill="#f72585" opacity="0.06" filter="url(#blobBlur)"/>
-  <circle cx="750" cy="170" r="70" fill="#4361ee" opacity="0.06" filter="url(#blobBlur)"/>
+  <text x="30" y="34" font-size="11" font-weight="700" fill="#b39dff" letter-spacing="2" opacity="0.8">🏆  SYSTEMS I'VE SHIPPED  —  1 of 2</text>
+  <rect x="30" y="40" width="210" height="1.5" rx="1" fill="url(#g1)" opacity="0.5"/>
 
-  <!-- Section header -->
-  <text x="30" y="34" font-size="13" font-weight="700" fill="#888" letter-spacing="2">🏆  SYSTEMS I'VE SHIPPED  —  row 1 of 2</text>
+  <!-- CARD 1 — purple -->
+  <rect x="30"  y="54" width="264" height="162" rx="12" fill="#150d2e"/>
+  <rect x="30"  y="54" width="264" height="162" rx="12" fill="none" stroke="#b39dff" stroke-width="0.5" opacity="0.35"/>
+  <rect x="30"  y="54" width="264" height="4"   rx="2"  fill="url(#g1)"/>
+  <text x="52"  y="98" font-size="26">⚡</text>
+  <text x="90"  y="90" font-size="13" font-weight="700" fill="#b39dff">Query Optimizer</text>
+  <text x="90"  y="106" font-size="10" fill="#555">MongoDB · ESR Indexing</text>
+  <text x="48"  y="128" font-size="11" fill="#888">Eliminated slow queries dragging</text>
+  <text x="48"  y="144" font-size="11" fill="#888">down a live system. 5-min query</text>
+  <text x="48"  y="160" font-size="11" fill="#888">→ 0.5s. Profiling + aggregation.</text>
+  <rect x="48"  y="176" width="56" height="16" rx="8" fill="#b39dff" opacity="0.13"/>
+  <rect x="48"  y="176" width="56" height="16" rx="8" fill="none" stroke="#b39dff" stroke-width="0.5" opacity="0.4"/>
+  <text x="76"  y="188" text-anchor="middle" font-size="9" fill="#b39dff" font-weight="600">MongoDB</text>
+  <rect x="112" y="176" width="48" height="16" rx="8" fill="#b39dff" opacity="0.10"/>
+  <rect x="112" y="176" width="48" height="16" rx="8" fill="none" stroke="#b39dff" stroke-width="0.5" opacity="0.3"/>
+  <text x="136" y="188" text-anchor="middle" font-size="9" fill="#b39dff" font-weight="600">Node.js</text>
+  <rect x="168" y="176" width="56" height="16" rx="8" fill="#b39dff" opacity="0.10"/>
+  <rect x="168" y="176" width="56" height="16" rx="8" fill="none" stroke="#b39dff" stroke-width="0.5" opacity="0.3"/>
+  <text x="196" y="188" text-anchor="middle" font-size="9" fill="#b39dff" font-weight="600">Caching</text>
 
-  <!-- PROJECT CARD 1: Query Optimizer -->
-  <rect x="30" y="50" width="264" height="148" rx="14" fill="white" filter="url(#shadow)" opacity="0.95"/>
-  <!-- Color top bar -->
-  <rect x="30" y="50" width="264" height="5" rx="2.5" fill="url(#g1)"/>
-  <!-- Top right corner accent -->
-  <rect x="278" y="50" width="16" height="48" rx="0" fill="url(#g1)" opacity="0.08"/>
-  <!-- Emoji -->
-  <text x="52" y="96" font-size="28">⚡</text>
-  <!-- Title -->
-  <text x="92" y="88" font-size="14" font-weight="700" fill="#222">Query Optimizer</text>
-  <text x="92" y="104" font-size="11" fill="#999">MongoDB · ESR Indexing</text>
-  <!-- Description -->
-  <text x="50" y="128" font-size="11" fill="#555">Eliminated slow queries dragging down a</text>
-  <text x="50" y="144" font-size="11" fill="#555">live system. 5-min query → 0.5s.</text>
-  <text x="50" y="160" font-size="11" fill="#555">Profiling, indexing strategy, aggregation.</text>
-  <!-- Tag pills -->
-  <rect x="50" y="172" width="60" height="16" rx="8" fill="#fff0f6"/>
-  <text x="80" y="184" text-anchor="middle" font-size="9" fill="#f72585" font-weight="600">MongoDB</text>
-  <rect x="118" y="172" width="52" height="16" rx="8" fill="#fff0f6"/>
-  <text x="144" y="184" text-anchor="middle" font-size="9" fill="#f72585" font-weight="600">Node.js</text>
-  <rect x="178" y="172" width="60" height="16" rx="8" fill="#fff0f6"/>
-  <text x="208" y="184" text-anchor="middle" font-size="9" fill="#f72585" font-weight="600">Caching</text>
+  <!-- CARD 2 — cyan -->
+  <rect x="318" y="54" width="264" height="162" rx="12" fill="#0d1f1e"/>
+  <rect x="318" y="54" width="264" height="162" rx="12" fill="none" stroke="#00e5cc" stroke-width="0.5" opacity="0.3"/>
+  <rect x="318" y="54" width="264" height="4"   rx="2"  fill="url(#g2)"/>
+  <text x="340" y="98" font-size="26">📊</text>
+  <text x="378" y="90" font-size="13" font-weight="700" fill="#00e5cc">Lead Management</text>
+  <text x="378" y="106" font-size="10" fill="#555">Sales Engine · 1M+ Records</text>
+  <text x="336" y="128" font-size="11" fill="#888">Premium system with smart sales</text>
+  <text x="336" y="144" font-size="11" fill="#888">rules to help teams close deals</text>
+  <text x="336" y="160" font-size="11" fill="#888">faster and increase revenue.</text>
+  <rect x="336" y="176" width="48" height="16" rx="8" fill="#00e5cc" opacity="0.12"/>
+  <rect x="336" y="176" width="48" height="16" rx="8" fill="none" stroke="#00e5cc" stroke-width="0.5" opacity="0.3"/>
+  <text x="360" y="188" text-anchor="middle" font-size="9" fill="#00e5cc" font-weight="600">Next.js</text>
+  <rect x="392" y="176" width="56" height="16" rx="8" fill="#00e5cc" opacity="0.10"/>
+  <rect x="392" y="176" width="56" height="16" rx="8" fill="none" stroke="#00e5cc" stroke-width="0.5" opacity="0.3"/>
+  <text x="420" y="188" text-anchor="middle" font-size="9" fill="#00e5cc" font-weight="600">MongoDB</text>
+  <rect x="456" y="176" width="40" height="16" rx="8" fill="#00e5cc" opacity="0.10"/>
+  <rect x="456" y="176" width="40" height="16" rx="8" fill="none" stroke="#00e5cc" stroke-width="0.5" opacity="0.3"/>
+  <text x="476" y="188" text-anchor="middle" font-size="9" fill="#00e5cc" font-weight="600">Redis</text>
 
-  <!-- PROJECT CARD 2: Lead Management -->
-  <rect x="318" y="50" width="264" height="148" rx="14" fill="white" filter="url(#shadow)" opacity="0.95"/>
-  <rect x="318" y="50" width="264" height="5" rx="2.5" fill="url(#g2)"/>
-  <rect x="566" y="50" width="16" height="48" rx="0" fill="url(#g2)" opacity="0.08"/>
-  <text x="340" y="96" font-size="28">📊</text>
-  <text x="380" y="88" font-size="14" font-weight="700" fill="#222">Lead Management</text>
-  <text x="380" y="104" font-size="11" fill="#999">Sales Engine · 1M+ Records</text>
-  <text x="338" y="128" font-size="11" fill="#555">Premium system with smart sales rules to</text>
-  <text x="338" y="144" font-size="11" fill="#555">help sales teams close deals faster and</text>
-  <text x="338" y="160" font-size="11" fill="#555">increase revenue with rule-based routing.</text>
-  <rect x="338" y="172" width="52" height="16" rx="8" fill="#f0f0ff"/>
-  <text x="364" y="184" text-anchor="middle" font-size="9" fill="#4361ee" font-weight="600">Next.js</text>
-  <rect x="398" y="172" width="60" height="16" rx="8" fill="#f0f0ff"/>
-  <text x="428" y="184" text-anchor="middle" font-size="9" fill="#4361ee" font-weight="600">MongoDB</text>
-  <rect x="466" y="172" width="52" height="16" rx="8" fill="#f0f0ff"/>
-  <text x="492" y="184" text-anchor="middle" font-size="9" fill="#4361ee" font-weight="600">Redis</text>
-
-  <!-- PROJECT CARD 3: Subscription Engine -->
-  <rect x="606" y="50" width="264" height="148" rx="14" fill="white" filter="url(#shadow)" opacity="0.95"/>
-  <rect x="606" y="50" width="264" height="5" rx="2.5" fill="url(#g3)"/>
-  <rect x="854" y="50" width="16" height="48" rx="0" fill="url(#g3)" opacity="0.08"/>
-  <text x="628" y="96" font-size="28">🔄</text>
-  <text x="668" y="88" font-size="14" font-weight="700" fill="#222">Subscription Engine</text>
-  <text x="668" y="104" font-size="11" fill="#999">Billing · Renewals · Lifecycle</text>
-  <text x="626" y="128" font-size="11" fill="#555">End-to-end subscription system handling</text>
-  <text x="626" y="144" font-size="11" fill="#555">plans, renewals, upgrades. Built to handle</text>
-  <text x="626" y="160" font-size="11" fill="#555">edge cases cleanly and reliably.</text>
-  <rect x="626" y="172" width="68" height="16" rx="8" fill="#e0fff4"/>
-  <text x="660" y="184" text-anchor="middle" font-size="9" fill="#06d6a0" font-weight="600">FeathersJS</text>
-  <rect x="702" y="172" width="60" height="16" rx="8" fill="#e0fff4"/>
-  <text x="732" y="184" text-anchor="middle" font-size="9" fill="#06d6a0" font-weight="600">Node.js</text>
-  <rect x="770" y="172" width="60" height="16" rx="8" fill="#e0fff4"/>
-  <text x="800" y="184" text-anchor="middle" font-size="9" fill="#06d6a0" font-weight="600">MongoDB</text>
+  <!-- CARD 3 — green -->
+  <rect x="606" y="54" width="264" height="162" rx="12" fill="#1a0d20"/>
+  <rect x="606" y="54" width="264" height="162" rx="12" fill="none" stroke="#fe428e" stroke-width="0.5" opacity="0.3"/>
+  <rect x="606" y="54" width="264" height="4"   rx="2"  fill="url(#g3)"/>
+  <text x="628" y="98" font-size="26">🔄</text>
+  <text x="666" y="90" font-size="13" font-weight="700" fill="#fe428e">Subscription Engine</text>
+  <text x="666" y="106" font-size="10" fill="#555">Billing · Renewals · Lifecycle</text>
+  <text x="624" y="128" font-size="11" fill="#888">End-to-end subscription system</text>
+  <text x="624" y="144" font-size="11" fill="#888">handling plans, renewals, upgrades.</text>
+  <text x="624" y="160" font-size="11" fill="#888">Edge cases handled cleanly.</text>
+  <rect x="624" y="176" width="64" height="16" rx="8" fill="#fe428e" opacity="0.13"/>
+  <rect x="624" y="176" width="64" height="16" rx="8" fill="none" stroke="#fe428e" stroke-width="0.5" opacity="0.4"/>
+  <text x="656" y="188" text-anchor="middle" font-size="9" fill="#fe428e" font-weight="600">FeathersJS</text>
+  <rect x="696" y="176" width="48" height="16" rx="8" fill="#fe428e" opacity="0.10"/>
+  <rect x="696" y="176" width="48" height="16" rx="8" fill="none" stroke="#fe428e" stroke-width="0.5" opacity="0.3"/>
+  <text x="720" y="188" text-anchor="middle" font-size="9" fill="#fe428e" font-weight="600">Node.js</text>
+  <rect x="752" y="176" width="56" height="16" rx="8" fill="#fe428e" opacity="0.10"/>
+  <rect x="752" y="176" width="56" height="16" rx="8" fill="none" stroke="#fe428e" stroke-width="0.5" opacity="0.3"/>
+  <text x="780" y="188" text-anchor="middle" font-size="9" fill="#fe428e" font-weight="600">MongoDB</text>
 </svg>
