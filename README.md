@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com/?lines=5+min+queries+now+run+in+0.5s;Lead+systems+at+1M%2B+scale;Full-stack+from+idea+to+production;Next.js+%C2%B7+Node.js+%C2%B7+MongoDB+%C2%B7+Go&font=Fira+Code&center=true&width=520&height=45&color=ffdc00&vCenter=true&pause=1000&size=20&duration=3000" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com/?lines=5+min+queries+now+run+in+0.5s;Lead+systems+at+1M%2B+scale;Full-stack+from+idea+to+production;Next.js+%C2%B7+Node.js+%C2%B7+MongoDB+%C2%B7+Go&font=Fira+Code&center=true&width=520&height=45&color=b39dff&vCenter=true&pause=1000&size=20&duration=3000" alt="Typing SVG" />
   </a>
 </p>
 
@@ -162,11 +162,7 @@ fun_fact: "I paint when I'm not debugging aggregation pipelines 🎨"
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Purvi-Gupta/Purvi-Gupta/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Purvi-Gupta/Purvi-Gupta/output/github-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/Purvi-Gupta/Purvi-Gupta/output/github-snake.svg" width="100%" />
-  </picture>
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/Purvi-Gupta/Purvi-Gupta/output/github-snake-dark.svg" width="100%" />
 </p>
 
 </details>
