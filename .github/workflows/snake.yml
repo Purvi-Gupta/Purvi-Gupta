@@ -18,8 +18,14 @@ jobs:
         with:
           github_user_name: Purvi-Gupta
           outputs: |
-            dist/github-snake.svg?color_snake=b39dff
-            dist/github-snake-dark.svg?color_snake=fe428e
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Recolor snake only
+        run: |
+          # The snake body uses a specific class in the SVG — replace its color only
+          sed -i 's/class="snake"/class="snake" style="fill:#b39dff;stroke:#b39dff"/g' dist/github-snake.svg
+          sed -i 's/class="snake"/class="snake" style="fill:#fe428e;stroke:#fe428e"/g' dist/github-snake-dark.svg
 
       - uses: crazy-max/ghaction-github-pages@v3
         with:
