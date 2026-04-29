@@ -1,98 +1,105 @@
 <svg viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#141321"/>
-      <stop offset="100%" style="stop-color:#0d1117"/>
+      <stop offset="0%" style="stop-color:#0d0d1a"/>
+      <stop offset="100%" style="stop-color:#0a0a14"/>
     </linearGradient>
-    <linearGradient id="pink" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="gPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#b39dff"/>
+      <stop offset="100%" style="stop-color:#8b6dff"/>
+    </linearGradient>
+    <linearGradient id="gCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00e5cc"/>
+      <stop offset="100%" style="stop-color:#00b8a0"/>
+    </linearGradient>
+    <linearGradient id="gGreen" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#fe428e"/>
-      <stop offset="100%" style="stop-color:#b5179e"/>
+      <stop offset="100%" style="stop-color:#c41660"/>
     </linearGradient>
-    <linearGradient id="cyan" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#a9fef7"/>
-      <stop offset="100%" style="stop-color:#4361ee"/>
+    <linearGradient id="gYellow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffdc00"/>
+      <stop offset="100%" style="stop-color:#f0a500"/>
     </linearGradient>
-    <linearGradient id="purple" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#b5179e"/>
-      <stop offset="100%" style="stop-color:#7209b7"/>
-    </linearGradient>
-    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ffd60a"/>
-      <stop offset="100%" style="stop-color:#f77f00"/>
-    </linearGradient>
-    <filter id="shadow">
-      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#fe428e" flood-opacity="0.15"/>
+    <filter id="glowP">
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#b39dff" flood-opacity="0.2"/>
     </filter>
-    <filter id="shadowCyan">
-      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#a9fef7" flood-opacity="0.12"/>
+    <filter id="glowC">
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#00e5cc" flood-opacity="0.15"/>
     </filter>
-    <filter id="blobBlur">
+    <filter id="glowG">
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#fe428e" flood-opacity="0.15"/>
+    </filter>
+    <filter id="glowY">
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#ffdc00" flood-opacity="0.15"/>
+    </filter>
+    <filter id="blob">
       <feGaussianBlur stdDeviation="20"/>
     </filter>
   </defs>
 
   <rect width="900" height="280" fill="url(#bg)" rx="16"/>
-  <circle cx="100" cy="80" r="70" fill="#fe428e" opacity="0.05" filter="url(#blobBlur)"/>
-  <circle cx="800" cy="200" r="80" fill="#a9fef7" opacity="0.04" filter="url(#blobBlur)"/>
+  <circle cx="100" cy="80"  r="70" fill="#b39dff" opacity="0.05" filter="url(#blob)"/>
+  <circle cx="800" cy="200" r="80" fill="#00e5cc" opacity="0.04" filter="url(#blob)"/>
 
-  <text x="30" y="38" font-size="11" font-weight="700" fill="#fe428e" letter-spacing="2" opacity="0.8">📡  PRODUCTION METRICS</text>
-  <rect x="30" y="44" width="160" height="1.5" rx="1" fill="url(#pink)" opacity="0.5"/>
+  <!-- Section label -->
+  <text x="30" y="38" font-size="11" font-weight="700" fill="#b39dff" letter-spacing="2" opacity="0.8">📡  PRODUCTION METRICS</text>
+  <rect x="30" y="44" width="160" height="1.5" rx="1" fill="url(#gPurple)" opacity="0.5"/>
 
-  <!-- CARD 1 -->
-  <rect x="30" y="58" width="190" height="195" rx="14" fill="#1a1040" filter="url(#shadow)"/>
-  <rect x="30" y="58" width="190" height="5" rx="2.5" fill="url(#pink)"/>
-  <rect x="30" y="58" width="190" height="195" rx="14" fill="none" stroke="#fe428e" stroke-width="0.5" opacity="0.3"/>
-  <text x="52" y="106" font-size="28">⚡</text>
-  <text x="125" y="104" text-anchor="middle" font-size="10" fill="#fe428e" font-weight="700" letter-spacing="1.5">QUERY SPEED</text>
-  <text x="125" y="148" text-anchor="middle" font-size="34" font-weight="800" fill="#fe428e">5m → 0.5s</text>
-  <text x="125" y="168" text-anchor="middle" font-size="10" fill="#666">query took 5 minutes</text>
-  <text x="125" y="182" text-anchor="middle" font-size="10" fill="#666">now runs in half a second ✓</text>
-  <rect x="50" y="198" width="150" height="5" rx="2.5" fill="#2a1040"/>
-  <rect x="50" y="198" width="135" height="5" rx="2.5" fill="url(#pink)"/>
-  <text x="125" y="224" text-anchor="middle" font-size="10" fill="#fe428e" font-weight="700">90% faster</text>
-  <text x="125" y="242" text-anchor="middle" font-size="9" fill="#444">MongoDB · ESR Indexing</text>
+  <!-- CARD 1 — purple -->
+  <rect x="30"  y="58" width="190" height="200" rx="14" fill="#150d2e" filter="url(#glowP)"/>
+  <rect x="30"  y="58" width="190" height="200" rx="14" fill="none" stroke="#b39dff" stroke-width="0.5" opacity="0.35"/>
+  <rect x="30"  y="58" width="190" height="5"   rx="2.5" fill="url(#gPurple)"/>
+  <text x="52"  y="106" font-size="28">⚡</text>
+  <text x="125" y="104" text-anchor="middle" font-size="10" fill="#b39dff" font-weight="700" letter-spacing="1.5">QUERY SPEED</text>
+  <text x="125" y="148" text-anchor="middle" font-size="32" font-weight="800" fill="#b39dff">5m → 0.5s</text>
+  <text x="125" y="168" text-anchor="middle" font-size="10" fill="#555">query took 5 minutes</text>
+  <text x="125" y="182" text-anchor="middle" font-size="10" fill="#555">now runs in 0.5s ✓</text>
+  <rect x="50"  y="198" width="150" height="5" rx="2.5" fill="#2a1a50"/>
+  <rect x="50"  y="198" width="135" height="5" rx="2.5" fill="url(#gPurple)"/>
+  <text x="125" y="222" text-anchor="middle" font-size="10" fill="#b39dff" font-weight="700">90% faster</text>
+  <text x="125" y="242" text-anchor="middle" font-size="9"  fill="#444">MongoDB · ESR Indexing</text>
 
-  <!-- CARD 2 -->
-  <rect x="242" y="58" width="190" height="195" rx="14" fill="#0d1a2e" filter="url(#shadowCyan)"/>
-  <rect x="242" y="58" width="190" height="5" rx="2.5" fill="url(#cyan)"/>
-  <rect x="242" y="58" width="190" height="195" rx="14" fill="none" stroke="#a9fef7" stroke-width="0.5" opacity="0.2"/>
+  <!-- CARD 2 — cyan -->
+  <rect x="242" y="58" width="190" height="200" rx="14" fill="#0d1f1e" filter="url(#glowC)"/>
+  <rect x="242" y="58" width="190" height="200" rx="14" fill="none" stroke="#00e5cc" stroke-width="0.5" opacity="0.3"/>
+  <rect x="242" y="58" width="190" height="5"   rx="2.5" fill="url(#gCyan)"/>
   <text x="264" y="106" font-size="28">📊</text>
-  <text x="337" y="104" text-anchor="middle" font-size="10" fill="#a9fef7" font-weight="700" letter-spacing="1.5">LEAD SYSTEM</text>
-  <text x="337" y="148" text-anchor="middle" font-size="34" font-weight="800" fill="#a9fef7">1M+</text>
-  <text x="337" y="168" text-anchor="middle" font-size="10" fill="#666">records handled</text>
-  <text x="337" y="182" text-anchor="middle" font-size="10" fill="#666">sub-2s queries ✓</text>
-  <rect x="262" y="198" width="150" height="5" rx="2.5" fill="#0d2030"/>
-  <rect x="262" y="198" width="145" height="5" rx="2.5" fill="url(#cyan)"/>
-  <text x="337" y="224" text-anchor="middle" font-size="10" fill="#a9fef7" font-weight="700">scaled &amp; optimized</text>
-  <text x="337" y="242" text-anchor="middle" font-size="9" fill="#444">Next.js · Node.js · Redis</text>
+  <text x="337" y="104" text-anchor="middle" font-size="10" fill="#00e5cc" font-weight="700" letter-spacing="1.5">LEAD SYSTEM</text>
+  <text x="337" y="148" text-anchor="middle" font-size="32" font-weight="800" fill="#00e5cc">1M+</text>
+  <text x="337" y="168" text-anchor="middle" font-size="10" fill="#555">records handled</text>
+  <text x="337" y="182" text-anchor="middle" font-size="10" fill="#555">sub-2s queries ✓</text>
+  <rect x="262" y="198" width="150" height="5" rx="2.5" fill="#0d2020"/>
+  <rect x="262" y="198" width="145" height="5" rx="2.5" fill="url(#gCyan)"/>
+  <text x="337" y="222" text-anchor="middle" font-size="10" fill="#00e5cc" font-weight="700">scaled &amp; optimized</text>
+  <text x="337" y="242" text-anchor="middle" font-size="9"  fill="#444">Next.js · Node.js · Redis</text>
 
-  <!-- CARD 3 -->
-  <rect x="454" y="58" width="190" height="195" rx="14" fill="#1a0d2e" filter="url(#shadow)"/>
-  <rect x="454" y="58" width="190" height="5" rx="2.5" fill="url(#purple)"/>
-  <rect x="454" y="58" width="190" height="195" rx="14" fill="none" stroke="#b5179e" stroke-width="0.5" opacity="0.3"/>
+  <!-- CARD 3 — green -->
+  <rect x="454" y="58" width="190" height="200" rx="14" fill="#1a0d20" filter="url(#glowG)"/>
+  <rect x="454" y="58" width="190" height="200" rx="14" fill="none" stroke="#fe428e" stroke-width="0.5" opacity="0.3"/>
+  <rect x="454" y="58" width="190" height="5"   rx="2.5" fill="url(#gGreen)"/>
   <text x="476" y="106" font-size="28">🚀</text>
-  <text x="549" y="104" text-anchor="middle" font-size="10" fill="#b5179e" font-weight="700" letter-spacing="1.5">SYSTEMS BUILT</text>
-  <text x="549" y="148" text-anchor="middle" font-size="34" font-weight="800" fill="#b5179e">6+</text>
-  <text x="549" y="168" text-anchor="middle" font-size="10" fill="#666">production systems</text>
-  <text x="549" y="182" text-anchor="middle" font-size="10" fill="#666">in 2 years ✓</text>
-  <rect x="474" y="198" width="150" height="5" rx="2.5" fill="#1a0d2e"/>
-  <rect x="474" y="198" width="120" height="5" rx="2.5" fill="url(#purple)"/>
-  <text x="549" y="224" text-anchor="middle" font-size="10" fill="#b5179e" font-weight="700">end-to-end ownership</text>
-  <text x="549" y="242" text-anchor="middle" font-size="9" fill="#444">FeathersJS · Express · Node</text>
+  <text x="549" y="104" text-anchor="middle" font-size="10" fill="#fe428e" font-weight="700" letter-spacing="1.5">SYSTEMS BUILT</text>
+  <text x="549" y="148" text-anchor="middle" font-size="32" font-weight="800" fill="#fe428e">6+</text>
+  <text x="549" y="168" text-anchor="middle" font-size="10" fill="#555">production systems</text>
+  <text x="549" y="182" text-anchor="middle" font-size="10" fill="#555">in 2 years ✓</text>
+  <rect x="474" y="198" width="150" height="5" rx="2.5" fill="#1a0d20"/>
+  <rect x="474" y="198" width="120" height="5" rx="2.5" fill="url(#gGreen)"/>
+  <text x="549" y="222" text-anchor="middle" font-size="10" fill="#fe428e" font-weight="700">end-to-end ownership</text>
+  <text x="549" y="242" text-anchor="middle" font-size="9"  fill="#444">FeathersJS · Express · Node</text>
 
-  <!-- CARD 4 -->
-  <rect x="666" y="58" width="190" height="195" rx="14" fill="#1a1500" filter="url(#shadow)"/>
-  <rect x="666" y="58" width="190" height="5" rx="2.5" fill="url(#orange)"/>
-  <rect x="666" y="58" width="190" height="195" rx="14" fill="none" stroke="#ffd60a" stroke-width="0.5" opacity="0.25"/>
+  <!-- CARD 4 — yellow -->
+  <rect x="666" y="58" width="190" height="200" rx="14" fill="#1a1600" filter="url(#glowY)"/>
+  <rect x="666" y="58" width="190" height="200" rx="14" fill="none" stroke="#ffdc00" stroke-width="0.5" opacity="0.25"/>
+  <rect x="666" y="58" width="190" height="5"   rx="2.5" fill="url(#gYellow)"/>
   <text x="688" y="106" font-size="28">🎯</text>
-  <text x="761" y="104" text-anchor="middle" font-size="10" fill="#ffd60a" font-weight="700" letter-spacing="1.5">EXPERIENCE</text>
-  <text x="761" y="148" text-anchor="middle" font-size="34" font-weight="800" fill="#ffd60a">2 yrs</text>
-  <text x="761" y="168" text-anchor="middle" font-size="10" fill="#666">full-stack engineering</text>
-  <text x="761" y="182" text-anchor="middle" font-size="10" fill="#666">growing fast ✓</text>
-  <rect x="686" y="198" width="150" height="5" rx="2.5" fill="#1a1500"/>
-  <rect x="686" y="198" width="100" height="5" rx="2.5" fill="url(#orange)"/>
-  <text x="761" y="224" text-anchor="middle" font-size="10" fill="#ffd60a" font-weight="700">still levelling up</text>
-  <text x="761" y="242" text-anchor="middle" font-size="9" fill="#444">Real work. Real systems.</text>
+  <text x="761" y="104" text-anchor="middle" font-size="10" fill="#ffdc00" font-weight="700" letter-spacing="1.5">EXPERIENCE</text>
+  <text x="761" y="148" text-anchor="middle" font-size="32" font-weight="800" fill="#ffdc00">2 yrs</text>
+  <text x="761" y="168" text-anchor="middle" font-size="10" fill="#555">full-stack engineering</text>
+  <text x="761" y="182" text-anchor="middle" font-size="10" fill="#555">growing fast ✓</text>
+  <rect x="686" y="198" width="150" height="5" rx="2.5" fill="#1a1600"/>
+  <rect x="686" y="198" width="100" height="5" rx="2.5" fill="url(#gYellow)"/>
+  <text x="761" y="222" text-anchor="middle" font-size="10" fill="#ffdc00" font-weight="700">still levelling up</text>
+  <text x="761" y="242" text-anchor="middle" font-size="9"  fill="#444">Real work. Real systems.</text>
 
-  <text x="450" y="270" text-anchor="middle" font-size="10" fill="#333">Real work. Real systems. Real results.</text>
+  <text x="450" y="272" text-anchor="middle" font-size="10" fill="#333">Real work. Real systems. Real results.</text>
 </svg>
