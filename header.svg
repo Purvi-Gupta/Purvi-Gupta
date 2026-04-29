@@ -1,96 +1,49 @@
 <svg viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
   <defs>
-    <!-- Gradient background -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#fff0f6"/>
-      <stop offset="50%" style="stop-color:#f0f4ff"/>
-      <stop offset="100%" style="stop-color:#f0fff4"/>
+      <stop offset="0%" style="stop-color:#141321"/>
+      <stop offset="50%" style="stop-color:#1a1040"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
     </linearGradient>
-    <!-- Pink accent -->
-    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#f72585"/>
-      <stop offset="100%" style="stop-color:#b5179e"/>
-    </linearGradient>
-    <!-- Blue/purple accent -->
-    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#4361ee"/>
-      <stop offset="100%" style="stop-color:#7209b7"/>
-    </linearGradient>
-    <!-- Green accent -->
-    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#06d6a0"/>
-      <stop offset="100%" style="stop-color:#118ab2"/>
-    </linearGradient>
-    <!-- Name gradient -->
     <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#f72585"/>
-      <stop offset="40%" style="stop-color:#7209b7"/>
-      <stop offset="100%" style="stop-color:#4361ee"/>
+      <stop offset="0%" style="stop-color:#fe428e"/>
+      <stop offset="100%" style="stop-color:#f050a0"/>
     </linearGradient>
-    <!-- Blob shapes -->
-    <filter id="blur1">
-      <feGaussianBlur stdDeviation="18"/>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="blobBlur">
+      <feGaussianBlur stdDeviation="22"/>
     </filter>
   </defs>
-
-  <!-- Background -->
   <rect width="900" height="200" fill="url(#bgGrad)" rx="16"/>
-
-  <!-- Decorative blobs -->
-  <circle cx="60" cy="40" r="55" fill="#f72585" opacity="0.12" filter="url(#blur1)"/>
-  <circle cx="820" cy="160" r="60" fill="#4361ee" opacity="0.13" filter="url(#blur1)"/>
-  <circle cx="450" cy="30" r="45" fill="#06d6a0" opacity="0.10" filter="url(#blur1)"/>
-  <circle cx="750" cy="50" r="35" fill="#f72585" opacity="0.09" filter="url(#blur1)"/>
-  <circle cx="150" cy="170" r="40" fill="#4361ee" opacity="0.10" filter="url(#blur1)"/>
-
-  <!-- Floating dots -->
-  <circle cx="80" cy="155" r="5" fill="#f72585" opacity="0.5"/>
-  <circle cx="820" cy="50" r="4" fill="#06d6a0" opacity="0.6"/>
-  <circle cx="430" cy="170" r="3" fill="#7209b7" opacity="0.5"/>
-  <circle cx="200" cy="30" r="6" fill="#4361ee" opacity="0.4"/>
-  <circle cx="670" cy="170" r="4" fill="#f72585" opacity="0.4"/>
-  <circle cx="550" cy="20" r="3" fill="#06d6a0" opacity="0.5"/>
-  <circle cx="100" cy="90" r="3" fill="#7209b7" opacity="0.4"/>
-  <circle cx="780" cy="110" r="5" fill="#f72585" opacity="0.3"/>
-
-  <!-- Decorative squiggles / sparks -->
-  <text x="30" y="50" font-size="18" opacity="0.35">✦</text>
-  <text x="850" y="170" font-size="14" opacity="0.35">✦</text>
-  <text x="460" y="185" font-size="12" opacity="0.30">◆</text>
-  <text x="700" y="30" font-size="10" opacity="0.35">●</text>
-  <text x="245" y="185" font-size="10" opacity="0.30">✦</text>
-
-  <!-- Pill tags top-left -->
-  <rect x="28" y="72" width="90" height="20" rx="10" fill="url(#pinkGrad)" opacity="0.15"/>
-  <text x="38" y="86" font-size="10" fill="#f72585" font-weight="600">Full-Stack</text>
-
-  <rect x="128" y="72" width="78" height="20" rx="10" fill="url(#blueGrad)" opacity="0.15"/>
-  <text x="138" y="86" font-size="10" fill="#4361ee" font-weight="600">Node.js</text>
-
-  <!-- Pill tags bottom-right area -->
-  <rect x="676" y="108" width="90" height="20" rx="10" fill="url(#greenGrad)" opacity="0.15"/>
-  <text x="686" y="122" font-size="10" fill="#06d6a0" font-weight="600">MongoDB</text>
-
-  <rect x="776" y="108" width="90" height="20" rx="10" fill="url(#pinkGrad)" opacity="0.15"/>
-  <text x="786" y="122" font-size="10" fill="#b5179e" font-weight="600">Next.js</text>
-
-  <!-- Main content - centered -->
-  <!-- Wave emoji -->
-  <text x="450" y="68" text-anchor="middle" font-size="30">👋</text>
-
-  <!-- Name -->
-  <text x="450" y="112" text-anchor="middle" font-size="42" font-weight="800" fill="url(#nameGrad)" letter-spacing="-1">Purvi Gupta</text>
-
-  <!-- Tagline -->
-  <text x="450" y="145" text-anchor="middle" font-size="14" fill="#555" letter-spacing="0.5">
-    Full-Stack Engineer · From ideas to systems that scale
-  </text>
-
-  <!-- Sub-tagline stats line -->
-  <text x="450" y="170" text-anchor="middle" font-size="11" fill="#888">
-    Next.js · Node.js · MongoDB · Lead Systems · Query Optimization · Subscriptions
-  </text>
-
-  <!-- Bottom decorative bar -->
-  <rect x="340" y="185" width="220" height="3" rx="2" fill="url(#nameGrad)" opacity="0.5"/>
+  <circle cx="100" cy="60" r="70" fill="#fe428e" opacity="0.08" filter="url(#blobBlur)"/>
+  <circle cx="800" cy="140" r="80" fill="#a9fef7" opacity="0.06" filter="url(#blobBlur)"/>
+  <circle cx="450" cy="180" r="50" fill="#b5179e" opacity="0.07" filter="url(#blobBlur)"/>
+  <circle cx="60" cy="30" r="1.5" fill="#fe428e" opacity="0.8"/>
+  <circle cx="200" cy="15" r="1" fill="#a9fef7" opacity="0.7"/>
+  <circle cx="550" cy="12" r="1.5" fill="#fe428e" opacity="0.6"/>
+  <circle cx="720" cy="20" r="1" fill="#a9fef7" opacity="0.8"/>
+  <circle cx="860" cy="35" r="1.5" fill="#fe428e" opacity="0.6"/>
+  <circle cx="80" cy="170" r="1" fill="#a9fef7" opacity="0.5"/>
+  <circle cx="820" cy="175" r="1.5" fill="#fe428e" opacity="0.6"/>
+  <circle cx="150" cy="180" r="1" fill="#a9fef7" opacity="0.5"/>
+  <rect x="28" y="68" width="80" height="20" rx="10" fill="#fe428e" opacity="0.15"/>
+  <rect x="28" y="68" width="80" height="20" rx="10" fill="none" stroke="#fe428e" stroke-width="0.5" opacity="0.5"/>
+  <text x="68" y="82" text-anchor="middle" font-size="10" fill="#fe428e" font-weight="600">Full-Stack</text>
+  <rect x="116" y="68" width="72" height="20" rx="10" fill="#a9fef7" opacity="0.10"/>
+  <rect x="116" y="68" width="72" height="20" rx="10" fill="none" stroke="#a9fef7" stroke-width="0.5" opacity="0.4"/>
+  <text x="152" y="82" text-anchor="middle" font-size="10" fill="#a9fef7" font-weight="600">Node.js</text>
+  <rect x="700" y="108" width="84" height="20" rx="10" fill="#a9fef7" opacity="0.10"/>
+  <rect x="700" y="108" width="84" height="20" rx="10" fill="none" stroke="#a9fef7" stroke-width="0.5" opacity="0.4"/>
+  <text x="742" y="122" text-anchor="middle" font-size="10" fill="#a9fef7" font-weight="600">MongoDB</text>
+  <rect x="792" y="108" width="80" height="20" rx="10" fill="#fe428e" opacity="0.12"/>
+  <rect x="792" y="108" width="80" height="20" rx="10" fill="none" stroke="#fe428e" stroke-width="0.5" opacity="0.4"/>
+  <text x="832" y="122" text-anchor="middle" font-size="10" fill="#fe428e" font-weight="600">Next.js</text>
+  <text x="450" y="68" text-anchor="middle" font-size="28">👋</text>
+  <text x="450" y="112" text-anchor="middle" font-size="44" font-weight="800" fill="url(#nameGrad)" letter-spacing="-1" filter="url(#glow)">Purvi Gupta</text>
+  <text x="450" y="142" text-anchor="middle" font-size="13" fill="#a9fef7" letter-spacing="0.8" opacity="0.85">Full-Stack Engineer · From ideas to systems that scale</text>
+  <text x="450" y="165" text-anchor="middle" font-size="11" fill="#555" letter-spacing="0.3">Next.js · Node.js · MongoDB · Lead Systems · Query Optimization · Subscriptions</text>
+  <rect x="300" y="182" width="300" height="2" rx="1" fill="url(#nameGrad)" opacity="0.5"/>
 </svg>
