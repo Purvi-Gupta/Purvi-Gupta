@@ -18,8 +18,8 @@ jobs:
         with:
           github_user_name: Purvi-Gupta
           outputs: |
-            dist/github-snake.svg?palette=github
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=b39dff&color_dots[0]=0d0d1a&color_dots[1]=1a0d2e&color_dots[2]=3d2080&color_dots[3]=7b50dd&color_dots[4]=b39dff
+            dist/github-snake.svg?color_snake=b39dff
+            dist/github-snake-dark.svg?color_snake=fe428e
 
       - uses: crazy-max/ghaction-github-pages@v3
         with:
