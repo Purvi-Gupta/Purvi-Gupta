@@ -138,26 +138,26 @@ fun_fact: "I paint when I'm not debugging aggregation pipelines 🎨"
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-    <img src="https://streak-stats.demolab.com/?user=Purvi-Gupta&hide_border=true&background=fff8ff&ring=f72585&fire=4361ee&currStreakLabel=f72585&sideLabels=7209b7&currStreakNum=222222&sideNums=222222&dates=999999&stroke=f0e8ff" alt="Streak Stats"/>
+    <img src="https://streak-stats.demolab.com/?user=Purvi-Gupta&hide_border=true&theme=tokyonight" alt="Streak Stats"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180px" src="https://github-readme-stats.vercel.app/api?username=Purvi-Gupta&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=fff8ff&title_color=f72585&icon_color=4361ee&text_color=555555" alt="GitHub Stats"/>
+    <img height="180px" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Purvi-Gupta&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&rank_icon=github" alt="GitHub Stats"/>
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Purvi-Gupta&langs_count=8&layout=compact&hide_border=true&bg_color=fff8ff&title_color=f72585&text_color=555555" alt="Top Languages"/>
+    <img height="180px" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Purvi-Gupta&langs_count=8&layout=compact&hide_border=true&theme=tokyonight&hide=html,ejs" alt="Top Languages"/>
   </a>
 </p>
 
-<sub>⚠️ Top languages is a GitHub metric, not a skill ranking. Most of my meaningful work lives in private repos.</sub>
+<sub>⚠️ GitHub only counts public activity here. My real work — lead systems, query optimization, subscriptions — lives in private repos.</sub>
 
 <br/>
 
 <p align="center">
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph/?username=Purvi-Gupta&bg_color=fff8ff&color=7209b7&line=f72585&point=4361ee&hide_border=true&area=true&area_color=f0e8ff" alt="Activity Graph"/>
+    <img src="https://github-readme-activity-graph.vercel.app/graph/?username=Purvi-Gupta&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph"/>
   </a>
 </p>
 
