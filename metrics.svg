@@ -1,0 +1,99 @@
+<svg viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff0f6"/>
+      <stop offset="50%" style="stop-color:#f4f0ff"/>
+      <stop offset="100%" style="stop-color:#f0fff8"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f72585"/>
+      <stop offset="100%" style="stop-color:#b5179e"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4361ee"/>
+      <stop offset="100%" style="stop-color:#7209b7"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06d6a0"/>
+      <stop offset="100%" style="stop-color:#118ab2"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd60a"/>
+      <stop offset="100%" style="stop-color:#f77f00"/>
+    </linearGradient>
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000015"/>
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="280" fill="url(#bg)" rx="16"/>
+
+  <!-- Background blobs -->
+  <circle cx="100" cy="80" r="70" fill="#f72585" opacity="0.07" filter="url(#blur2)"/>
+  <circle cx="800" cy="200" r="80" fill="#4361ee" opacity="0.07" filter="url(#blur2)"/>
+  <circle cx="450" cy="280" r="60" fill="#06d6a0" opacity="0.07" filter="url(#blur2)"/>
+
+  <!-- Section title -->
+  <text x="30" y="38" font-size="13" font-weight="700" fill="#888" letter-spacing="2">📡  PRODUCTION METRICS</text>
+  <rect x="30" y="44" width="180" height="2" rx="1" fill="url(#pink)" opacity="0.4"/>
+
+  <!-- CARD 1: Query Optimization -->
+  <rect x="30" y="60" width="190" height="190" rx="16" fill="white" filter="url(#cardShadow)" opacity="0.92"/>
+  <rect x="30" y="60" width="190" height="6" rx="3" fill="url(#pink)"/>
+  <!-- Icon -->
+  <text x="50" y="108" font-size="32">⚡</text>
+  <!-- Label -->
+  <text x="125" y="108" text-anchor="middle" font-size="11" fill="#999" font-weight="600" letter-spacing="1">QUERY SPEED</text>
+  <!-- Big number -->
+  <text x="125" y="148" text-anchor="middle" font-size="36" font-weight="800" fill="#f72585">5m → 0.5s</text>
+  <!-- Sub label -->
+  <text x="125" y="168" text-anchor="middle" font-size="11" fill="#aaa">query took 5 minutes</text>
+  <text x="125" y="184" text-anchor="middle" font-size="11" fill="#aaa">now runs in half a second ✓</text>
+  <!-- Progress bar bg -->
+  <rect x="50" y="200" width="150" height="6" rx="3" fill="#f0e0ff"/>
+  <rect x="50" y="200" width="130" height="6" rx="3" fill="url(#pink)"/>
+  <text x="125" y="226" text-anchor="middle" font-size="10" fill="#f72585" font-weight="700">90% faster</text>
+
+  <!-- CARD 2: Lead System -->
+  <rect x="242" y="60" width="190" height="190" rx="16" fill="white" filter="url(#cardShadow)" opacity="0.92"/>
+  <rect x="242" y="60" width="190" height="6" rx="3" fill="url(#blue)"/>
+  <text x="262" y="108" font-size="32">📊</text>
+  <text x="337" y="108" text-anchor="middle" font-size="11" fill="#999" font-weight="600" letter-spacing="1">LEAD SYSTEM</text>
+  <text x="337" y="148" text-anchor="middle" font-size="36" font-weight="800" fill="#4361ee">1M+</text>
+  <text x="337" y="168" text-anchor="middle" font-size="11" fill="#aaa">records handled</text>
+  <text x="337" y="184" text-anchor="middle" font-size="11" fill="#aaa">sub-2s queries ✓</text>
+  <rect x="262" y="200" width="150" height="6" rx="3" fill="#e8e0ff"/>
+  <rect x="262" y="200" width="145" height="6" rx="3" fill="url(#blue)"/>
+  <text x="337" y="226" text-anchor="middle" font-size="10" fill="#4361ee" font-weight="700">scaled &amp; optimized</text>
+
+  <!-- CARD 3: Systems Shipped -->
+  <rect x="454" y="60" width="190" height="190" rx="16" fill="white" filter="url(#cardShadow)" opacity="0.92"/>
+  <rect x="454" y="60" width="190" height="6" rx="3" fill="url(#green)"/>
+  <text x="474" y="108" font-size="32">🚀</text>
+  <text x="549" y="108" text-anchor="middle" font-size="11" fill="#999" font-weight="600" letter-spacing="1">SYSTEMS BUILT</text>
+  <text x="549" y="148" text-anchor="middle" font-size="36" font-weight="800" fill="#06d6a0">6+</text>
+  <text x="549" y="168" text-anchor="middle" font-size="11" fill="#aaa">production systems</text>
+  <text x="549" y="184" text-anchor="middle" font-size="11" fill="#aaa">in 2 years ✓</text>
+  <rect x="474" y="200" width="150" height="6" rx="3" fill="#e0fff4"/>
+  <rect x="474" y="200" width="120" height="6" rx="3" fill="url(#green)"/>
+  <text x="549" y="226" text-anchor="middle" font-size="10" fill="#06d6a0" font-weight="700">end-to-end ownership</text>
+
+  <!-- CARD 4: Experience -->
+  <rect x="666" y="60" width="190" height="190" rx="16" fill="white" filter="url(#cardShadow)" opacity="0.92"/>
+  <rect x="666" y="60" width="190" height="6" rx="3" fill="url(#orange)"/>
+  <text x="686" y="108" font-size="32">🎯</text>
+  <text x="761" y="108" text-anchor="middle" font-size="11" fill="#999" font-weight="600" letter-spacing="1">EXPERIENCE</text>
+  <text x="761" y="148" text-anchor="middle" font-size="36" font-weight="800" fill="#f77f00">2 yrs</text>
+  <text x="761" y="168" text-anchor="middle" font-size="11" fill="#aaa">full-stack engineering</text>
+  <text x="761" y="184" text-anchor="middle" font-size="11" fill="#aaa">growing fast ✓</text>
+  <rect x="686" y="200" width="150" height="6" rx="3" fill="#fff8e0"/>
+  <rect x="686" y="200" width="100" height="6" rx="3" fill="url(#orange)"/>
+  <text x="761" y="226" text-anchor="middle" font-size="10" fill="#f77f00" font-weight="700">still levelling up</text>
+
+  <!-- Bottom note -->
+  <text x="450" y="268" text-anchor="middle" font-size="10" fill="#bbb">Real work. Real systems. Real results.</text>
+</svg>
